@@ -29,7 +29,12 @@ function getLevel() {
 
         case 6:
             document.getElementById("levelc").innerHTML=
-            "Level: Very Difficult Mode";
+            "Level: Very Difficult Mode"; 
+            break;
+            
+        case 7:
+            document.getElementById("levelc").innerHTML=
+            "Level: Impossible";
             break;
 
         default:
